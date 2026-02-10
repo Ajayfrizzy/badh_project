@@ -1,9 +1,12 @@
 import { useState } from 'react';
-import { DEXSCREENER_URL, TOKEN_ADDRESS } from '../constants';
+import { DEXSCREENER_URL, PANCAKESWAP_URL, TOKEN_ADDRESS } from '../constants';
 
 const CONTRACT = TOKEN_ADDRESS;
 
-const links = [{ label: 'DEXSCREENER', href: DEXSCREENER_URL }];
+const links = [
+  { label: 'DEXSCREENER', href: DEXSCREENER_URL },
+  { label: 'PANCAKESWAP', href: PANCAKESWAP_URL },
+];
 
 export default function ContractAddress() {
   const [copied, setCopied] = useState(false);

@@ -1,4 +1,4 @@
-import { DEXSCREENER_URL } from '../constants';
+import { DEXSCREENER_URL, PANCAKESWAP_URL } from '../constants';
 
 const highlights = [
   {
@@ -56,12 +56,12 @@ export default function Hero() {
         <p className="mb-8 text-base text-text-secondary md:text-lg">Binance future intern</p>
         <div className="mb-10 flex flex-wrap justify-center gap-4">
           <a
-            href={DEXSCREENER_URL}
+            href={PANCAKESWAP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-xl bg-accent-yellow px-7 py-3 text-[0.9rem] font-bold uppercase tracking-[0.5px] text-black shadow-[0_10px_30px_rgba(240,185,11,0.35)] transition hover:-translate-y-0.5 hover:bg-accent-yellow-hover"
           >
-            View on Dexscreener
+            View on Pancakeswap
           </a>
           <a
             href={DEXSCREENER_URL}

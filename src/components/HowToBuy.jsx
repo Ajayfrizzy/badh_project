@@ -1,4 +1,4 @@
-import { DEXSCREENER_URL } from '../constants';
+import { PANCAKESWAP_URL } from '../constants';
 
 const steps = [
   {
@@ -18,11 +18,11 @@ const steps = [
   },
   {
     number: '2',
-    title: 'View on Dexscreener',
-    items: ['Open Dexscreener pair page', 'Review the live chart and metrics'],
+    title: 'View on Pancakeswap',
+    items: ['Open Pancakeswap pair page', 'Review the live chart and metrics'],
     cta: {
-      text: 'OPEN DEXSCREENER',
-      link: DEXSCREENER_URL,
+      text: 'OPEN PANCAKESWAP',
+      link: PANCAKESWAP_URL,
     },
     note: 'Always double-check the contract address',
     icon: (
@@ -52,7 +52,7 @@ export default function HowToBuy() {
     <section className="bg-bg-primary py-20" id="how-to-buy">
       <div className="mx-auto max-w-[1100px] px-6 text-center">
         <h2 className="mb-2 text-3xl font-extrabold text-accent-yellow md:text-[2.5rem]">How to Buy on BSC</h2>
-        <p className="mb-12 text-[0.95rem] text-text-muted">(including Dexscreener)</p>
+        <p className="mb-12 text-[0.95rem] text-text-muted">(including Pancakeswap)</p>
         <div className="grid gap-6 md:grid-cols-3">
           {steps.map((step, i) => (
             <div
@@ -88,7 +88,7 @@ export default function HowToBuy() {
               )}
               {step.note && (
                 <p className="mt-3 flex items-center gap-2 text-[0.8rem] text-text-muted">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className='text-accent-yellow'>
                     <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
                     <line x1="12" y1="9" x2="12" y2="13" />
                     <line x1="12" y1="17" x2="12.01" y2="17" />

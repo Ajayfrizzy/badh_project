@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { DEXSCREENER_API_URL, DEXSCREENER_URL } from '../constants';
+import { DEXSCREENER_API_URL, DEXSCREENER_URL, PANCAKESWAP_URL } from '../constants';
 
 const usdFormatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
@@ -145,7 +145,7 @@ export default function Navbar() {
               <span className="text-[0.75rem] text-text-muted">Vol: {volumeLabel}</span>
             </div>
             <a
-              href={DEXSCREENER_URL}
+              href={PANCAKESWAP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl bg-accent-yellow px-5 py-2 text-center text-[0.8rem] font-extrabold uppercase tracking-[1px] text-black shadow-[0_6px_20px_rgba(240,185,11,0.35)] transition hover:bg-accent-yellow-hover animate-glow"
@@ -184,7 +184,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href={DEXSCREENER_URL}
+            href={PANCAKESWAP_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-xl bg-accent-yellow px-6 py-2.5 text-[0.85rem] font-extrabold uppercase tracking-[1px] text-black shadow-[0_6px_20px_rgba(240,185,11,0.35)] transition hover:-translate-y-0.5 hover:bg-accent-yellow-hover animate-glow"
@@ -204,7 +204,7 @@ export default function Navbar() {
         </button>
 
         <a
-          href={DEXSCREENER_URL}
+          href={PANCAKESWAP_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="relative z-30 inline-flex rounded-xl bg-accent-yellow px-3 py-2 text-[0.75rem] font-extrabold uppercase tracking-[0.8px] text-black shadow-[0_6px_20px_rgba(240,185,11,0.35)] transition hover:bg-accent-yellow-hover md:hidden"
