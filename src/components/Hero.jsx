@@ -53,7 +53,7 @@ export default function Hero() {
           IAped
           <span className='block py-3'>Token</span>
         </h1>
-        <p className="mb-8 text-base text-text-secondary md:text-lg">Binance future intern</p>
+        <p className="mb-8 text-base text-text-secondary md:text-lg">BSC Bullish Gem</p>
         <div className="mb-10 flex flex-wrap justify-center gap-4">
           <a
             href={PANCAKESWAP_URL}

@@ -1,4 +1,4 @@
-export const TOKEN_ADDRESS = '0x8b5b94b8455810422419b7d6b91c111c3d83af0c';
+export const TOKEN_ADDRESS = '0xAA091C8bd5bded850a78F1cf72d5029b19459237';
 export const PAIR_ADDRESS = '0x8b5b94b8455810422419b7d6b91c111c3d83af0c';
 
 export const DEXSCREENER_URL = `https://dexscreener.com/bsc/${PAIR_ADDRESS}`;
