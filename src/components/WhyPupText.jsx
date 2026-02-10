@@ -1,3 +1,5 @@
+import DemoVideo from "../assets/vid.mp4";
+
 export default function WhyPupText() {
   return (
     <section className="bg-bg-secondary pb-8 pt-20" id="why-pup">
@@ -15,11 +17,10 @@ export default function WhyPupText() {
           </p>
         </div>
         <div className="flex-shrink-0">
-          <img
-            src="/assets/sticker_img.jpeg"
-            alt="IAped Mascot"
-            className="h-auto w-[220px] rounded-3xl border border-accent-yellow/60 bg-bg-primary p-3 drop-shadow-[0_20px_40px_rgba(0,0,0,0.3)] md:w-[300px] animate-floatSlow"
-          />
+         <video controls width={400}>
+         <source src={DemoVideo}  type="video/mp4"/>
+         Your browser does not support this video
+         </video>
         </div>
       </div>
     </section>

@@ -2,9 +2,10 @@ const memes = [
   { src: '/assets/img1.jpeg', alt: 'Meme 1' },
   { src: '/assets/img2.jpeg', alt: 'Meme 2' },
   { src: '/assets/img3.jpeg', alt: 'Meme 3' },
-  { src: '/assets/img4.jpeg', alt: 'Meme 4' },
-  { src: '/assets/sticker_img.jpeg', alt: 'Meme 5' },
-  { src: '/assets/img5.jpeg', alt: 'Meme 6' },
+  { src: '/assets/img4.jpg', alt: 'Meme 4' },
+  { src: '/assets/img5.jpeg', alt: 'Meme 5' },
+  { src: '/assets/img6.jpg', alt: 'Meme 6' },
+  { src: '/assets/img7.jpeg', alt: 'Meme 7' },
 ];
 
 export default function MemesMedia() {

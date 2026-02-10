@@ -51,7 +51,7 @@ export default function Roadmap() {
     <section className="bg-bg-primary py-20" id="roadmap">
       <div className="mx-auto max-w-[1200px] px-6">
         <div className="mb-10 text-center">
-          <h2 className="text-3xl font-extrabold text-accent-yellow md:text-[2.5rem]">IAPED SIMPLE ROADMAP</h2>
+          <h2 className="text-3xl font-extrabold text-accent-yellow md:text-[2.5rem]">$IAPED SIMPLE ROADMAP</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2">
           {phases.map((phase) => (
