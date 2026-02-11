@@ -14,6 +14,7 @@
     background-color: #050505;
     background-image: radial-gradient(700px 380px at 50% -120px, rgba(240, 185, 11, 0.18), transparent 70%);
     margin: 0;
+    display: none;
   }
 
   a {
