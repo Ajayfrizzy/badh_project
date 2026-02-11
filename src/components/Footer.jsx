@@ -99,7 +99,7 @@ export default function Footer() {
           roadmap. The coin is for entertainment purposes only.
         </p> */}
         <div className="w-full border-t border-accent-yellow/20 pt-4 text-[0.8rem] text-text-muted">
-          Copyright &copy; 2025 IAped. All rights reserved.
+          Copyright &copy; 2026 IAped. All rights reserved.
         </div>
       </div>
     </footer>
